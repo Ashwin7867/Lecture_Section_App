@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "A7Cart",
+    "slug": "a7_cart",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.a7Group.a7Cart",
+      "versionCode": 1
+    },
+    "description": ""
+  }
+}
