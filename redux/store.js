@@ -1,4 +1,4 @@
 import {createStore} from 'redux';
-import rootReducer from './reducers/index';
+import sectionList from './reducers/sectionList';
 
-export default createStore(rootReducer);
+export default createStore(sectionList);

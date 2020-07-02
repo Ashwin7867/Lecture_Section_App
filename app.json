@@ -1,24 +1,16 @@
 {
   "expo": {
-    "name": "A7Cart",
-    "slug": "a7_cart",
+    "name": "Section_Lecture_App",
+    "slug": "section_lecture_app",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
       "android"
     ],
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "android": {
-      "package": "com.a7Group.a7Cart",
-      "versionCode": 1
-    },
-    "description": ""
-  }
+    "description": "",
+    "githubUrl": "https://github.com/Ashwin7867/",
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "Todo_App",
+  "name": "MapProject"
 }

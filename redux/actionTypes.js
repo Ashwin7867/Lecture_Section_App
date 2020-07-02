@@ -1,3 +1,3 @@
-export const ADD_TODO = "ADD_TODO";
-export const TOGGLE_TODO = "TOGGLE_TODO";
-export const SET_FILTER = "SET_FILTER";
+export const ADD_SECTION = "ADD_SECTION";
+export const ADD_LECTURE = "ADD_LECTURE";
+export const DELETE_LECTURE = "DELETE LECTURE";

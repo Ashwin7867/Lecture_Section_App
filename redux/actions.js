@@ -1,21 +1,22 @@
-import {ADD_TODO, TOGGLE_TODO, SET_FILTER} from './actionTypes';
+import {ADD_LECTURE, ADD_SECTION} from './actionTypes';
 
-let nextId = 0;
-
-export const addTodo = content => ({
-    type : ADD_TODO,
-    payload : {
-        id : ++nextId,
-        content 
+export const addSection = (content) => {
+    return {
+        type : ADD_SECTION,
+        payload : {
+            section_name : content
+        }
     }
-})
+}
 
-export const toggleTodo = (id) => ({
-    type : TOGGLE_TODO,
-    payload : {id}
-})
+export const addLecture = (section_name , lecture_name) => {
+    console.log(section_name , lecture_name);
+    return {
+        type : ADD_LECTURE,
+        payload : {
+            sec_name : section_name,
+            lecture_name : lecture_name
+        }
+    }
+}
 
-export const setFilter = (filter) => ({
-    type: SET_FILTER,
-    payload : { filter }
-})
